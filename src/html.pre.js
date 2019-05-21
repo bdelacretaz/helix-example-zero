@@ -5,7 +5,7 @@
  */
 function pre(context) {
   context.content.time = `${new Date()}`;
-  context.content.random = `${200 + Math.random()}`;
+  context.content.random = `${300 + Math.random()}`;
 }
 
 module.exports.pre = pre;
