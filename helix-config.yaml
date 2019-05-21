@@ -21,5 +21,4 @@ strains:
     package: bdelacre/2ca0e2221f56e7ffec4f7557082a98f3f1985fc4
   - name: proxy-demo
     url: https://bertrand.helix-demo.xyz/PROXY/
-    content:
-      origin: http://www.apache.org
+    origin: http://incubator.apache.org
