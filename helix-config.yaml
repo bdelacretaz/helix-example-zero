@@ -12,13 +12,13 @@ strains:
     code: ssh://git@github.com/bdelacretaz/helixing.git#master
     content: ssh://git@github.com/bdelacretaz/helixing.git#master
     static: ssh://git@github.com/bdelacretaz/helixing.git/htdocs#master
-    package: bdelacre/4a2fb66173e23711221dc7d5d2842fe1c482e53e
+    package: bdelacre/ee7f55b050c03f94dd8f80280c2f65049df367b7
   - name: dev
     url: https://bertrand.helix-demo.xyz/DEV/
     code: ssh://git@github.com/bdelacretaz/helixing.git#dev
     content: ssh://git@github.com/bdelacretaz/helixing.git#master
     static: ssh://git@github.com/bdelacretaz/helixing.git/htdocs#master
-    package: bdelacre/9cb88d63ec4a51b00f1a774523fb6231ff875c9e
+    package: bdelacre/c865cb4f3a939326033a7b39466f1163fd38539d
   - name: proxy-demo
     url: https://bertrand.helix-demo.xyz/PROXY/
     origin: http://incubator.apache.org
