@@ -12,4 +12,4 @@ strains:
     code: ssh://git@github.com/bdelacretaz/helixing.git#master
     content: ssh://git@github.com/bdelacretaz/helixing.git#master
     static: ssh://git@github.com/bdelacretaz/helixing.git/htdocs#master
-    package: bdelacre/fc78f73273b5a85f875ed14b94ae48759dedf807
+    package: bdelacre/68afa88c709108554d91071b3c9b78f54dc0c66c
