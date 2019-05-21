@@ -2,7 +2,7 @@
 
 # Helixing
 
-It works! _Helixing_ is up and running and this is version 1234.
+It works! _Helixing_ is up and running and this is version 12345.
 
 ## What's next?
 
