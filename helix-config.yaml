@@ -13,3 +13,9 @@ strains:
     content: ssh://git@github.com/bdelacretaz/helixing.git#master
     static: ssh://git@github.com/bdelacretaz/helixing.git/htdocs#master
     package: bdelacre/68afa88c709108554d91071b3c9b78f54dc0c66c
+  - name: dev
+    url: https://dev.bertrand.helix-demo.xyz/
+    code: ssh://git@github.com/bdelacretaz/helixing.git#dev
+    content: ssh://git@github.com/bdelacretaz/helixing.git#master
+    static: ssh://git@github.com/bdelacretaz/helixing.git/htdocs#master
+    package: bdelacre/68afa88c709108554d91071b3c9b78f54dc0c66c
