@@ -14,7 +14,7 @@ ${content.document.body.innerHTML}
 <hr>
 <em>Helix generated this on ${content.time}</em>
 <br/>
-<em>Now this is random: ${content.random}</em>
+<em>This is more than random: ${content.random}</em>
 
 </body>
 </html>
