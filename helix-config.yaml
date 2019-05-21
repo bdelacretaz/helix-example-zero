@@ -1,0 +1,15 @@
+#
+# helix configuration for local development
+#
+version: 1
+
+definitions:
+  defaults:
+    - &defaultRepo "ssh://git@github.com/bdelacretaz/helixing.git"
+
+strains:
+  - name: default
+    code: ssh://git@github.com/bdelacretaz/helixing.git#master
+    content: ssh://git@github.com/bdelacretaz/helixing.git#master
+    static: ssh://git@github.com/bdelacretaz/helixing.git/htdocs#master
+    package: bdelacre/fc78f73273b5a85f875ed14b94ae48759dedf807
