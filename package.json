@@ -1,0 +1,22 @@
+{
+  "name": "helixing",
+  "version": "1.0.0",
+  "description": "Helix Example - pilot",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --exit test/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdelacretaz/helixing.git"
+  },
+  "author": "Bertrand Delacretaz",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bdelacretaz/helixing/issues"
+  },
+  "homepage": "https://github.com/bdelacretaz/helixing#readme"
+}
