@@ -1,6 +1,6 @@
 # Helix Example Zero
 
-Build [![CircleCI](https://circleci.com/gh/bdelacretaz/helixing.svg?style=svg)](https://circleci.com/gh/bdelacretaz/helixing)
+Build [![CircleCI](https://circleci.com/gh/bdelacretaz/helix-example-zero.svg?style=svg)](https://circleci.com/gh/bdelacretaz/helix-example-zero)
 
 This is "Example Zero", your starting point to [Helix](https://www.project-helix.io/). 
 
