@@ -24,12 +24,18 @@ const textInBody = [
   'git remote add origin',
 ];
 
+const TEST_TIMEOUT_MSEC = 10000;
+
 // TODO build from Git repo name
 const testURL = 'https://helixing-bdelacretaz.project-helix.page';
 
+
 // TODO we should first wait for the Helix Pages output to be
-// updated - include the Git revision hash in the output and check
-// for that for example
+// updated - include the Git revision hash in a response header
+// (with Helix debug mode?) and check it, for example.
+// The "get content" code look like website.content("/"), take
+// care of that (+CDN cache clearing) and cache content for the
+// duration of the tests.
 
 describe('Basic test of the Helix Pages output', () => {
   it('contains our content', (done) => {
@@ -47,5 +53,5 @@ describe('Basic test of the Helix Pages output', () => {
       });
       done();
     });
-  });
+  }).timeout(TEST_TIMEOUT_MSEC);
 });
