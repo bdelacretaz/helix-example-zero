@@ -22,7 +22,6 @@ const mainTitle = 'Helixing';
 const textInBody = [
   'to change the HTML output',
   'git remote add origin',
-  'This should make the test fail',
 ];
 
 const TEST_TIMEOUT_MSEC = 10000;
