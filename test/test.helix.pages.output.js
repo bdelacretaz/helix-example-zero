@@ -18,16 +18,16 @@ const request = require('request');
 const jquery = require('jquery');
 const { JSDOM } = require('jsdom');
 
-const mainTitle = 'Helixing';
+const mainTitle = 'Helix Example Zero';
 const textInBody = [
-  'to change the HTML output',
-  'git remote add origin',
+  'your Helix website is up and running!',
+  'See the README',
 ];
 
 const TEST_TIMEOUT_MSEC = 10000;
 
 // TODO build from Git repo name
-const testURL = 'https://helixing-bdelacretaz.project-helix.page';
+const testURL = 'https://helix-example-zero-bdelacretaz.project-helix.page';
 
 
 // TODO we should first wait for the Helix Pages output to be
