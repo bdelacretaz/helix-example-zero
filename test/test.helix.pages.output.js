@@ -30,10 +30,8 @@ const testURL = `https://helix-example-zero-bdelacretaz.project-helix.page?cache
 // care of that (+CDN cache clearing) and cache content for the
 // duration of the tests.
 
-describe('Test the Helix Pages output', () => {
+describe(`Test the Helix Pages output from ${testURL}`, () => {
   const content = {};
-
-  console.log(`Getting content from ${testURL}`);
 
   // "function" is needed for "this", to set timeout
   // eslint-disable-next-line func-names
