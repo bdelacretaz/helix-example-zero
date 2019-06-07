@@ -4,16 +4,16 @@ jobs:
   build:
     working_directory: ~/funky-claude
     docker:
-      - image: circleci/node:4.8.2
+      - image: circleci/node:10.6
     steps:
       - checkout
       - run:
           name: update-npm
-          command: 'sudo npm install -g npm@5'
+          command: 'sudo npm install -g npm@6'
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
-          name: install-npm-wee
+          name: install-npm-dependencies
           command: npm install
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
