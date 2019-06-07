@@ -11,7 +11,7 @@ This is "Example Zero", your starting point to [Helix](https://www.project-helix
 It demonstrates a basic website with a few pages, a header and a footer,
 all in Markdown format, along with a simple custom CSS stylesheet and a few images.
 
-By default, this example Helix website is published at https://helix-example-zero-bdelacretaz.project-helix.page/ . If you forked this repository, replace `bdelacretaz` with your GitHub username in that URL.
+By default, this example Helix website is published at https://helix-example-zero--bdelacretaz.project-helix.page/ . If you forked this repository, replace `bdelacretaz` with your GitHub username in that URL.
 
 To access other Helix examples use [This GitHub query](https://github.com/topics/helix-example) - each example is found in its own GitHub repository.
 
