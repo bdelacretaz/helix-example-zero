@@ -88,4 +88,18 @@ describe(`Test the Helix Pages output from ${testURL}`, () => {
       );
     });
   });
+
+  it('Contains the expected revision markers', () => {
+    [
+      'Testing index revision: 1234',
+      'Testing header revision: 1234',
+      'Testing footer revision: 1234',
+    ].forEach((text) => {
+      assert(
+        content.$('body').text().indexOf(text) > 0,
+        `Expecting '${text})' to be found in the page content`,
+      );
+    });
+  });
+
 });
