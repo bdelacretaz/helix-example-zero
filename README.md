@@ -4,6 +4,10 @@ Build [![CircleCI](https://circleci.com/gh/bdelacretaz/helix-example-zero.svg?st
 
 This is "Example Zero", your starting point to [Helix](https://www.project-helix.io/). 
 
+> So far this is more a skeleton than a complete example, it needs to be fleshed out but already
+> demonstrates the idea of standalone examples including integration tests that validate them
+> along with the whole publishing chain. Discussion at [#27](https://github.com/adobe/helix-home/issues/27).
+
 It demonstrates a basic website with a few pages, a header and a footer,
 all in Markdown format, along with a simple custom CSS stylesheet and a few images.
 
