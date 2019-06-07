@@ -27,7 +27,7 @@ const textInBody = [
 const TEST_TIMEOUT_MSEC = 10000;
 
 // TODO build from Git repo name
-const testURL = 'https://helix-example-zero-bdelacretaz.project-helix.page';
+const testURL = `https://helix-example-zero-bdelacretaz.project-helix.page?cacheKiller=${Math.random()}`;
 
 
 // TODO we should first wait for the Helix Pages output to be

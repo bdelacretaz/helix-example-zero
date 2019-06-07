@@ -2,7 +2,7 @@
 
 # Helix Example Zero
 
-It works, you Helix website is up and running!
+It works, your Helix website is up and running!
 
 ## What's next?
 
