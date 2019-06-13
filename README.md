@@ -2,6 +2,8 @@
 
 Build [![CircleCI](https://circleci.com/gh/bdelacretaz/helix-example-zero.svg?style=svg)](https://circleci.com/gh/bdelacretaz/helix-example-zero)
 
+This has **moved** to https://github.com/adobe/helix-example-basic
+
 This is "Example Zero", your starting point to [Helix](https://www.project-helix.io/). 
 
 > So far this is more a skeleton than a complete example, it needs to be fleshed out but already
